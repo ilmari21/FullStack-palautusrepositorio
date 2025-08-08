@@ -47,7 +47,7 @@ const App = () => {
       {
         name: 'State of a component',
         exercises: 14
-      },
+      }
     ]
   }
 
@@ -55,7 +55,7 @@ const App = () => {
     <div>
       <Header course={course} />
       <Content parts={course.parts} />
-      <Total exercises={course.parts} />
+      <Total parts={course.parts} />
     </div>
   )
 }
